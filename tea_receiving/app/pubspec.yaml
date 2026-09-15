@@ -1,0 +1,30 @@
+name: tea_receiving
+description: 鲜叶收青移动端——收青点大按钮、扫码绑篓、称重、随机抽样、人工核对，离线 Isar 存储。
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tea_core:
+    path: ../core
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+  mobile_scanner: ^5.2.3
+  camera: ^0.11.0+2
+  qr_flutter: ^4.1.0
+  intl: ^0.19.0
+  collection: ^1.18.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.13

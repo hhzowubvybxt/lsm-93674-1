@@ -1,0 +1,11 @@
+name: tea_core
+description: 鲜叶收青离线业务内核（茶园区块、采法、采摘区间、运输容器、芽叶级配、红变损伤、称重、抽样、核对）。
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.25.8
+  lints: ^4.0.0
